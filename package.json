@@ -1,6 +1,6 @@
 {
   "name": "balkan-tungumal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Þýðingar á basic hlutum á vefsíðu.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
