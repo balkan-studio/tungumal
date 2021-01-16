@@ -1,0 +1,11 @@
+{
+  "name": "tungumal",
+  "version": "1.0.0",
+  "description": "Þýðingar á basic hlutum á vefsíðu.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jón Gabríel Lorange",
+  "license": "ISC"
+}
