@@ -13,7 +13,7 @@
     "prepublishOnly": "yarn test && yarn lint",
     "preversion": "yarn lint",
     "version": "yarn format && git add -A src",
-    "postversion": "git push && push --tags"
+    "postversion": "git push && git push --tags"
   },
   "author": "Jón Gabríel Lorange",
   "license": "ISC",
