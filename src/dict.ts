@@ -17,6 +17,10 @@ const dictionary: {
     is: 'Lesa meira',
     en: 'Read more',
   },
+  Open: {
+    is: 'Opna',
+    en: 'Open',
+  },
 }
 
 export default dictionary
