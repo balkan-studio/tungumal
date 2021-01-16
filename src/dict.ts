@@ -1,8 +1,8 @@
 import { Dictionary, Language } from './types'
 
 const dictionary: {
-  [key in Dictionary]: {
-    [key in Language]: string
+  [d in Dictionary]: {
+    [l in Language]: string
   }
 } = {
   'Public transportation': {
