@@ -1,5 +1,5 @@
 {
-  "name": "tungumal",
+  "name": "balkan-tungumal",
   "version": "1.0.0",
   "description": "Þýðingar á basic hlutum á vefsíðu.",
   "main": "lib/index.js",
@@ -34,11 +34,6 @@
     "lib/**/*"
   ],
   "keywords": [
-    "Þýðingar",
-    "Translator",
-    "Íslenska",
-    "Enska",
-    "Icelandic",
-    "English"
+    "Translator"
   ]
 }
