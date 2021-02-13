@@ -6,7 +6,7 @@ export type Dictionary =
   | 'Exhibitions'
   | 'Group exhibition'
 
-export type Language = 'en' | 'is'
+export type Language = 'en-us' | 'is'
 
 const dictionary: {
   [d in Dictionary]: {
@@ -15,27 +15,27 @@ const dictionary: {
 } = {
   'Public transportation': {
     is: 'Almenningssamgöngur',
-    en: 'Public transportation',
+    'en-us': 'Public transportation',
   },
   'Opening hours': {
     is: 'Opnunartími',
-    en: 'Opening hours',
+    'en-us': 'Opening hours',
   },
   'Read more': {
     is: 'Lesa meira',
-    en: 'Read more',
+    'en-us': 'Read more',
   },
   Open: {
     is: 'Í gangi',
-    en: 'Open',
+    'en-us': 'Open',
   },
   Exhibitions: {
     is: 'Sýningar',
-    en: 'Exhibitions',
+    'en-us': 'Exhibitions',
   },
   'Group exhibition': {
     is: 'Hópsýning',
-    en: 'Group exhibition',
+    'en-us': 'Group exhibition',
   },
 }
 

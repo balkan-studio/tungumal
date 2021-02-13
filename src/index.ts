@@ -1,5 +1,4 @@
-import dictionary from './dict'
-import { Dictionary, Language } from './types'
+import dictionary, { Dictionary, Language } from './dict'
 
 export const langSeek = (key: Dictionary, lang: Language) => {
   if (dictionary[key]) {
