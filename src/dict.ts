@@ -5,6 +5,9 @@ export type Dictionary =
   | 'Open'
   | 'Exhibitions'
   | 'Group exhibition'
+  | 'Events'
+  | 'Upcoming exhibition'
+  | 'News'
 
 export type Language = 'en-us' | 'is'
 
@@ -34,8 +37,20 @@ const dictionary: {
     'en-us': 'Exhibitions',
   },
   'Group exhibition': {
-    is: 'Hópsýning',
+    is: 'Samsýning',
     'en-us': 'Group exhibition',
+  },
+  Events: {
+    is: 'Viðburðir',
+    'en-us': 'Events',
+  },
+  'Upcoming exhibition': {
+    is: 'Næsta sýning',
+    'en-us': 'Upcoming exhibition',
+  },
+  News: {
+    is: 'Fréttir',
+    'en-us': 'News',
   },
 }
 
